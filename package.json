@@ -1,0 +1,54 @@
+{
+  "name": "flow-csum",
+  "version": "0.0.0",
+  "description": "Transform stream which calculates the cumulative sum of a numeric data stream.",
+  "author": {
+    "name": "Athan Reines",
+    "email": "athan@nodeprime.com"
+  },
+  "contributors": [
+    {
+      "name": "Athan Reines",
+      "email": "athan@nodeprime.com"
+    }
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flow-io/flow-csum.git"
+  },
+  "keywords": [
+    "stream",
+    "writable",
+    "readable",
+    "transform",
+    "through",
+    "flow",
+    "flow.io",
+    "sum",
+    "cumulative sum",
+    "cumsum",
+    "statistics",
+    "stats"
+  ],
+  "bugs": {
+    "url": "https://github.com/flow-io/flow-csum/issues"
+  },
+  "dependencies": {
+    "through": "~2.3.4"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "event-stream": "~3.1.5"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ]
+}
