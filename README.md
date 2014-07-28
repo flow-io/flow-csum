@@ -40,7 +40,7 @@ var stream = sStream.stream();
 
 ## Usage
 
-Methods are chainable,
+Methods are chainable.
 
 ``` javascript
 sumStream()
