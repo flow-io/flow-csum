@@ -1,6 +1,6 @@
 {
   "name": "flow-csum",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Transform stream which calculates the cumulative sum of a numeric data stream.",
   "author": {
     "name": "Athan Reines",
