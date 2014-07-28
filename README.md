@@ -1,13 +1,52 @@
 flow-csum
 =========
 
-Transform stream which calculates the cumulative sum of a numeric data stream.
+Transform stream factory to calculate the cumulative sum of a numeric data stream.
 
 
 ## Installation
 
 ``` bash
 $ npm install flow-csum
+```
+
+## API
+
+To create a stream factory,
+
+``` javascript
+var sumStream = require( 'flow-csum' );
+
+// Create a new factory:
+var sStream = sumStream();
+```
+
+### sStream.sum( [value] )
+
+This method is a setter/getter. If no value is provided, returns the initial sum value. To set the initial sum,
+
+``` javascript
+sStream.sum( 100 );
+```
+
+### sStream.stream()
+
+To create a new sum stream,
+
+``` javascript
+var stream = sStream.stream();
+```
+
+
+## Usage
+
+Methods are chainable,
+
+``` javascript
+sumStream()
+	.sum( 100 )
+	.stream()
+	.pipe( /* somewhere */ );
 ```
 
 
