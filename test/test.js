@@ -19,7 +19,7 @@ var expect = chai.expect,
 
 // TESTS //
 
-describe( 'cumulative sum', function tests() {
+describe( 'flow-csum', function tests() {
 	'use strict';
 
 	it( 'should export a factory function', function test() {
