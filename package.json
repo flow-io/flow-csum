@@ -1,7 +1,7 @@
 {
   "name": "flow-csum",
   "version": "0.0.1",
-  "description": "Transform stream which calculates the cumulative sum of a numeric data stream.",
+  "description": "Transform stream factory to calculate the cumulative sum of a numeric data stream.",
   "author": {
     "name": "Athan Reines",
     "email": "athan@nodeprime.com"
