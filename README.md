@@ -23,7 +23,7 @@ var sStream = sumStream();
 
 ### sStream.sum( [value] )
 
-This method is a setter/getter. If no value is provided, returns the initial sum value. To set the initial sum,
+This method is a setter/getter. If no `value` is provided, returns the initial sum `value`. To set the initial sum,
 
 ``` javascript
 sStream.sum( 100 );
@@ -46,7 +46,7 @@ Methods are chainable,
 sumStream()
 	.sum( 100 )
 	.stream()
-	.pipe( /* somewhere */ );
+	.pipe( /* writable stream */ );
 ```
 
 
