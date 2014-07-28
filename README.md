@@ -76,6 +76,13 @@ readStream.pipe( stream )
 	.pipe( process.stdout );
 ```
 
+To run the example code from the top-level application directory,
+
+``` bash
+$ node ./examples/index.js
+```
+
+
 ## Tests
 
 Unit tests use the [Mocha](http://visionmedia.github.io/mocha) test framework with [Chai](http://chaijs.com) assertions.
